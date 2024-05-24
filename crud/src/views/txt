@@ -1,0 +1,124 @@
+*Bug Fixes*
+
+*Comma to Amount*
+
+ - Issue: Comma not displaying correctly in amount inputs.
+ - Action Required: Fix input figure formatting to properly display commas.
+User Interface Changes
+
+*Expense Table Categories*
+
+ - Issue: Category and sub-category should be removed from the expense table.
+ - Action Required: Implement a side menu or top bar for category and sub-category selection.
+
+*Dashboard Adjustments*
+
+ - Issue: Stock alert on the dashboard should only show services.
+ - Action Required: Modify the bottom section of the dashboard to filter out non-service stock alerts.
+
+*Receivables and Filters*
+
+*Dashboard Data Filter*
+
+ - Issue: Filter dashboard data by last year is pending backend integration.
+ - Action Required: Complete backend development to enable filtering of dashboard data by the last year.
+
+*Tag Filtering*
+
+ - Issue: Need to use tags as filters during data creation.
+ - Action Required: Implement tag-based filtering functionality to allow data filtering based on tags.
+Dashboard Stats
+
+*Permission-Based Control*
+
+ - Issue: Remove purchase return, total payment, total due, and sales return stats from the dashboard.
+ - Action Required: Bind each stat to permissions for control and visibility.
+
+*Invoice Filters*
+
+ - Issue: Invoice filters need changes.
+ - Action Required: Add paid and unpaid filters as default options.
+
+*Invoice List Column*
+
+ - Issue: Fix the invoice date column in the invoice list.
+-  - Action Required: Correct the display issues in the invoice date column.
+
+*POS (Point of Sale)*
+
+*Product Code Replacement*
+
+ - Issue: Replace code under products with the amount.
+ - Action Required: Update the POS interface to display amounts instead of product codes.
+
+*Tag Management*
+
+*Product Tag Values*
+
+ - Issue: Add yes/no values to product tags.
+ - Action Required: Enable binary tagging (yes/no) for products.
+
+*Customer Invoice Tags*
+
+ - Issue: Tag name and value should be moved up in the generate customer invoice modal.
+ - Action Required: Adjust the modal to allow multiple tags and position tag fields higher.
+
+*Payment Modal Adjustments*
+
+*Grouping Payments*
+
+ - Issue: Compulsory and optional payments should be grouped in the online payment modal.
+ - Action Required: Arrange compulsory payments at the top and optional payments below.
+
+*Optional Payments Dropdown*
+
+ - Issue: Optional payments group should show only payments not present in the invoice.
+ - Action Required: Implement a dropdown to display optional payments, ensuring optional payments are clearly distinguished.
+
+*Reports Module*
+
+*Dropdown Packaging*
+
+ - Issue: Reports module needs to be organized as a dropdown.
+ - Action Required: Reorganize the reports module to a dropdown format for better accessibility.
+
+*Database Backup*
+
+ - Issue: Database backup feature needs to be disabled temporarily.
+ - Action Required: Disable the database backup functionality.
+
+------------------------------
+
+*Client Portal and Moniwave V2*
+
+------------------------------
+
+*Disabled Functions*
+
+ - Issue: Several functions in Moniwave V2 need to be disabled.
+ - Action Required: Hide the requisition function using permissions.
+
+*Filter Adjustments*
+
+ - Issue: Dashboard data filtering by term and section is not urgent but needed.
+ - Action Required: Implement filtering options by term and section.
+
+*Merchant Account Balance*
+
+ - Issue: Merchant account balance display needs to be clearer.
+ - Action Required: Ensure clear indication of merchant account balances on the dashboard.
+
+*POS Services Display*
+
+ - Issue: Services should be displayed on POS.
+ - Action Required: Adjust POS settings to include service displays.
+
+*Recurring Invoices*
+
+ - Issue: Disable recurring invoice feature with permissions for school.
+ - Action Required: Implement permission controls to disable recurring invoices.
+
+*Quotations List*
+
+ - Issue: Quotations list needs to be disabled with permissions.
+ - Action Required: Use permissions to control access to the quotations list.
